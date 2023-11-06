@@ -5,7 +5,7 @@ const path = require("path");
 
 require("dotenv").config()
 
-const routes = require("../Backend/routes/authRoutes");
+const routes = require("./routes/authRoutes");
 
 const cors = require("cors")
 
